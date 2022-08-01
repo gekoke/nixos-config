@@ -11,7 +11,7 @@
 
   imports = 
     [
-      ../../modules/shell/fish
+      ../../modules/shell/zsh
       ../../modules/programs
             
       ../../modules/services/gpg
@@ -33,9 +33,9 @@
     };
   };
 
-  modules.fish = {
+  modules.zsh = {
     enable = true;
-    enableFlashyPrompt = false;
+    enableFlashyPrompt = true;
     enableFileIcons = false;
   };
 
